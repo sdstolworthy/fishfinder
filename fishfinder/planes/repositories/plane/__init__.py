@@ -1,2 +1,3 @@
 from .barnstormers import BarnstormersPlaneRepository
 from .craigslist_repository import Craigslist
+from .trade_a_plane_repository import TradeAPlaneRepository

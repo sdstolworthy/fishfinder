@@ -1,15 +1,17 @@
 from .steps import search, save_results
-from planes.repositories.plane import BarnstormersPlaneRepository, Craigslist
+from planes.repositories.plane import BarnstormersPlaneRepository, Craigslist, TradeAPlaneRepository
 from planes.repositories.plane.plane_repository import PlaneSearchParams
 
 
 class AirplaneSearchPipeline:
     pipeline = [
-        search.Search(
-            BarnstormersPlaneRepository(),
-            PlaneSearchParams(price_gte=20000, price_lte=40000, title="piper"),
-        ),
-        search.Search(Craigslist(), PlaneSearchParams(
+        # search.Search(
+        #     BarnstormersPlaneRepository(),
+        #     PlaneSearchParams(price_gte=20000, price_lte=40000, title="piper"),
+        # ),
+        # search.Search(Craigslist(), PlaneSearchParams(
+        #     price_gte=20000, price_lte=50000)),
+        search.Search(TradeAPlaneRepository(), PlaneSearchParams(
             price_gte=20000, price_lte=50000)),
     ]
 
