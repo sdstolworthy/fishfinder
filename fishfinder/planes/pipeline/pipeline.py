@@ -4,15 +4,15 @@ from planes.repositories.plane.plane_repository import PlaneSearchParams
 
 
 class AirplaneSearchPipeline:
+    search_filter = PlaneSearchParams(
+        price_gte=20000, price_lte=40000)
     pipeline = [
-        # search.Search(
-        #     BarnstormersPlaneRepository(),
-        #     PlaneSearchParams(price_gte=20000, price_lte=40000, title="piper"),
-        # ),
-        # search.Search(Craigslist(), PlaneSearchParams(
-        #     price_gte=20000, price_lte=50000)),
-        search.Search(TradeAPlaneRepository(), PlaneSearchParams(
-            price_gte=20000, price_lte=50000)),
+        search.Search(
+            BarnstormersPlaneRepository(),
+            search_filter
+        ),
+        search.Search(Craigslist(), search_filter),
+        search.Search(TradeAPlaneRepository(), search_filter),
     ]
 
     def run(self):

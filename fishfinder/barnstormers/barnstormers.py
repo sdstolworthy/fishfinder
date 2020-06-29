@@ -72,8 +72,9 @@ class BarnstormersClassifieds:
             self.__serialize_listing(listing_result)
             for listing_result in soup.find_all(class_="classified_single")
         ]
-        next_link = soup.find(lambda tag: tag.name == "a" and "Next Page" in tag.text)
-        return page_listings, self.base_url + next_link["href"]
+        next_link = soup.find(lambda tag: tag.name ==
+                              "a" and "Next Page" in tag.text)
+        return page_listings, (self.base_url + next_link["href"]) if next_link is not None else None
 
     def search(
         self, search_params: BarnstormerSearchParams = BarnstormerSearchParams()
@@ -93,5 +94,5 @@ class BarnstormersClassifieds:
 
 class Barnstormers:
     base_url = "https://barnstormers.com"
-    classifieds: BarnstormersClassifieds = BarnstormersClassifieds(base_url=base_url)
-
+    classifieds: BarnstormersClassifieds = BarnstormersClassifieds(
+        base_url=base_url)
