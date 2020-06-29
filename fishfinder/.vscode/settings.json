@@ -1,0 +1,4 @@
+{
+  "python.pythonPath": "/home/spencer/Projects/fishfinder/env/bin/python",
+  "python.formatting.provider": "black"
+}

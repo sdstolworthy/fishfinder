@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "name": "Fishfinder",
+            "path": "fishfinder/"
+        }
+    ],
+    "settings": {
+        "python.pythonPath": "/home/spencer/Projects/fishfinder/env/bin/python",
+        "editor.tabSize": 4
+    },
+    "extensions": {
+        "recommendations": [
+            "batisteo.vscode-django",
+            "hashicorp.terraform",
+            "ms-python.python",
+            "ms-vsliveshare.vsliveshare",
+            "sonarsource.sonarlint-vscode"
+        ]
+    }
+}
