@@ -1,10 +1,11 @@
 from django.db import models
 from faker import Faker
+from .base import BaseModel
 
 fake = Faker()
 
 
-class Airplane(models.Model):
+class Airplane(BaseModel):
 
     price = models.IntegerField()
     description = models.TextField(blank=True, null=True)

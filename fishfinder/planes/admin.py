@@ -7,4 +7,4 @@ from planes.models import Airplane
 
 @admin.register(Airplane)
 class PlaneAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["title", "price", "url", "created_at"]
