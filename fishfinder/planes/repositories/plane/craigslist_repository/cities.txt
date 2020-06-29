@@ -1,420 +1,420 @@
 auburn
-birmingham
+bham
 dothan
-florence / muscle shoals
-gadsden-anniston
-huntsville / decatur
+shoals
+gadsden
+huntsville
 mobile
 montgomery
 tuscaloosa
-anchorage / mat-su
+anchorage
 fairbanks
-kenai peninsula
-southeast alaska
-flagstaff / sedona
-mohave county
+kenai
+juneau
+flagstaff
+mohave
 phoenix
 prescott
-show low
-sierra vista
+showlow
+sierravista
 tucson
 yuma
-fayetteville 
-fort smith
+fayar
+fortsmith
 jonesboro
-little rock
+littlerock
 texarkana
 bakersfield
 chico
-fresno / madera
-gold country
-hanford-corcoran
-humboldt county
-imperial county
-inland empire
-los angeles
-mendocino county
+fresno
+goldcountry
+hanford
+humboldt
+imperial
+inlandempire
+losangeles
+mendocino
 merced
 modesto
-monterey bay
-orange county
-palm springs
+monterey
+orangecounty
+palmsprings
 redding
 sacramento
-san diego
-san francisco bay area
-san luis obispo
-santa barbara
-santa maria
-siskiyou county
+sandiego
+sfbay
+slo
+santabarbara
+santamaria
+siskiyou
 stockton
 susanville
-ventura county
-visalia-tulare
-yuba-sutter
+ventura
+visalia
+yubasutter
 boulder
-colorado springs
+cosprings
 denver
-eastern CO
-fort collins / north CO
-high rockies
+eastco
+fortcollins
+rockies
 pueblo
-western slope
-eastern CT
+westslope
+newlondon
 hartford
-new haven
-northwest CT
+newhaven
+nwct
 delaware
-washington
-broward county
-daytona beach
-florida keys
-fort lauderdale
-ft myers / SW florida
+washingtondc
+miami
+daytona
+keys
+fortlauderdale
+fortmyers
 gainesville
-heartland florida
+cfl
 jacksonville
 lakeland
-miami / dade
-north central FL
+miami
+lakecity
 ocala
-okaloosa / walton
+okaloosa
 orlando
-panama city
+panamacity
 pensacola
-sarasota-bradenton
-south florida
-space coast
-st augustine
+sarasota
+miami
+spacecoast
+staugustine
 tallahassee
-tampa bay area
-treasure coast
-palm beach county
-albany 
-athens
+tampa
+treasure
+miami
+albanyga
+athensga
 atlanta
 augusta
 brunswick
-columbus 
-macon / warner robins
-northwest GA
-savannah / hinesville
+columbusga
+macon
+nwga
+savannah
 statesboro
 valdosta
-hawaii
+honolulu
 boise
-east idaho
-lewiston / clarkston
-twin falls
-bloomington-normal
-champaign urbana
+eastidaho
+lewiston
+twinfalls
+bn
+chambana
 chicago
 decatur
-la salle co
-mattoon-charleston
+lasalle
+mattoon
 peoria
 rockford
-southern illinois
-springfield 
-western IL
+carbondale
+springfieldil
+quincy
 bloomington
 evansville
-fort wayne
+fortwayne
 indianapolis
 kokomo
-lafayette / west lafayette
-muncie / anderson
-richmond 
-south bend / michiana
-terre haute
+tippecanoe
+muncie
+richmondin
+southbend
+terrehaute
 ames
-cedar rapids
-des moines
+cedarrapids
+desmoines
 dubuque
-fort dodge
-iowa city
-mason city
-quad cities
-sioux city
-southeast IA
-waterloo / cedar falls
+fortdodge
+iowacity
+masoncity
+quadcities
+siouxcity
+ottumwa
+waterloo
 lawrence
-manhattan
-northwest KS
+ksu
+nwks
 salina
-southeast KS
-southwest KS
+seks
+swks
 topeka
 wichita
-bowling green
-eastern kentucky
+bgky
+eastky
 lexington
 louisville
 owensboro
-western KY
-baton rouge
-central louisiana
+westky
+batonrouge
+cenla
 houma
 lafayette
-lake charles
+lakecharles
 monroe
-new orleans
+neworleans
 shreveport
 maine
 annapolis
 baltimore
-eastern shore
+easternshore
 frederick
-southern maryland
-western maryland
+smd
+westmd
 boston
-cape cod / islands
-south coast
-western massachusetts
-worcester / central MA
-ann arbor
-battle creek
-central michigan
-detroit metro
+capecod
+southcoast
+westernmass
+worcester
+annarbor
+battlecreek
+centralmich
+detroit
 flint
-grand rapids
+grandrapids
 holland
-jackson 
+jxn
 kalamazoo
 lansing
-monroe 
+monroemi
 muskegon
-northern michigan
-port huron
-saginaw-midland-baycity
-southwest michigan
-the thumb
-upper peninsula
+nmi
+porthuron
+saginaw
+swmi
+thumb
+up
 bemidji
 brainerd
-duluth / superior
+duluth
 mankato
-minneapolis / st paul
-rochester 
-southwest MN
-st cloud
-gulfport / biloxi
+minneapolis
+rmn
+marshall
+stcloud
+gulfport
 hattiesburg
 jackson
 meridian
-north mississippi
-southwest MS
-columbia / jeff city
+northmiss
+natchez
+columbiamo
 joplin
-kansas city
+kansascity
 kirksville
-lake of the ozarks
-southeast missouri
+loz
+semo
 springfield
-st joseph
-st louis
+stjoseph
+stlouis
 billings
 bozeman
 butte
-great falls
+greatfalls
 helena
 kalispell
 missoula
-eastern montana
-grand island
+montana
+grandisland
 lincoln
-north platte
-omaha / council bluffs
-scottsbluff / panhandle
+northplatte
+omaha
+scottsbluff
 elko
-las vegas
-reno / tahoe
-new hampshire
-central NJ
-jersey shore
-north jersey
-south jersey
+lasvegas
+reno
+nh
+cnj
+jerseyshore
+newjersey
+southjersey
 albuquerque
-clovis / portales
+clovis
 farmington
-las cruces
-roswell / carlsbad
-santa fe / taos
+lascruces
+roswell
+santafe
 albany
 binghamton
 buffalo
 catskills
 chautauqua
-elmira-corning
-finger lakes
-glens falls
-hudson valley
+elmira
+fingerlakes
+glensfalls
+hudsonvalley
 ithaca
-long island
-new york city
+longisland
+newyork
 oneonta
-plattsburgh-adirondacks
-potsdam-canton-massena
+plattsburgh
+potsdam
 rochester
 syracuse
-twin tiers NY/PA
-utica-rome-oneida
+twintiers
+utica
 watertown
 asheville
 boone
 charlotte
-eastern NC
+eastnc
 fayetteville
 greensboro
-hickory / lenoir
-jacksonville 
-outer banks
-raleigh / durham / CH
+hickory
+onslow
+outerbanks
+raleigh
 wilmington
-winston-salem
+winstonsalem
 bismarck
-fargo / moorhead
-grand forks
-north dakota
-akron / canton
+fargo
+grandforks
+nd
+akroncanton
 ashtabula
-athens 
+athensohio
 chillicothe
 cincinnati
 cleveland
 columbus
-dayton / springfield
-lima / findlay
+dayton
+limaohio
 mansfield
 sandusky
 toledo
-tuscarawas co
+tuscarawas
 youngstown
-zanesville / cambridge
+zanesville
 lawton
-northwest OK
-oklahoma city
+enid
+oklahomacity
 stillwater
 tulsa
 bend
-corvallis/albany
-east oregon
+corvallis
+eastoregon
 eugene
-klamath falls
-medford-ashland
-oregon coast
+klamath
+medford
+oregoncoast
 portland
 roseburg
 salem
-altoona-johnstown
-cumberland valley
+altoona
+chambersburg
 erie
 harrisburg
 lancaster
-lehigh valley
+allentown
 meadville
 philadelphia
 pittsburgh
 poconos
 reading
-scranton / wilkes-barre
-state college
+scranton
+pennstate
 williamsport
 york
-rhode island
+providence
 charleston
 columbia
-florence
-greenville / upstate
-hilton head
-myrtle beach
-northeast SD
-pierre / central SD
-rapid city / west SD
-sioux falls / SE SD
-south dakota
+florencesc
+greenville
+hiltonhead
+myrtlebeach
+nesd
+csd
+rapidcity
+siouxfalls
+sd
 chattanooga
 clarksville
 cookeville
-jackson  
+jacksontn
 knoxville
 memphis
 nashville
-tri-cities
+tricities
 abilene
 amarillo
 austin
-beaumont / port arthur
+beaumont
 brownsville
-college station
-corpus christi
-dallas / fort worth
-deep east texas
-del rio / eagle pass
-el paso
+collegestation
+corpuschristi
+dallas
+nacogdoches
+delrio
+elpaso
 galveston
 houston
-killeen / temple / ft hood
+killeen
 laredo
 lubbock
-mcallen / edinburg
-odessa / midland
-san angelo
-san antonio
-san marcos
-southwest TX
+mcallen
+odessa
+sanangelo
+sanantonio
+sanmarcos
+bigbend
 texoma
-tyler / east TX
-victoria 
+easttexas
+victoriatx
 waco
-wichita falls
+wichitafalls
 logan
-ogden-clearfield
-provo / orem
-salt lake city
-st george
+ogden
+provo
+saltlakecity
+stgeorge
 vermont
 charlottesville
 danville
 fredericksburg
-hampton roads
+norfolk
 harrisonburg
 lynchburg
-new river valley
+blacksburg
 richmond
 roanoke
-southwest VA
+swva
 winchester
 bellingham
-kennewick-pasco-richland
-moses lake
-olympic peninsula
-pullman / moscow
-seattle-tacoma
-skagit / island / SJI
-spokane / coeur d'alene
+kpr
+moseslake
+olympic
+pullman
+seattle
+skagit
+spokane
 wenatchee
 yakima
-charleston 
-eastern panhandle
-huntington-ashland
+charlestonwv
+martinsburg
+huntington
 morgantown
-northern panhandle
-parkersburg-marietta
-southern WV
-west virginia (old)
-appleton-oshkosh-FDL
-eau claire
-green bay
+wheeling
+parkersburg
+swv
+wv
+appleton
+eauclaire
+greenbay
 janesville
-kenosha-racine
-la crosse
+racine
+lacrosse
 madison
 milwaukee
-northern WI
+northernwi
 sheboygan
 wausau
 wyoming
-guam-micronesia
-puerto rico
-U.S. virgin islands
+micronesia
+puertorico
+virgin

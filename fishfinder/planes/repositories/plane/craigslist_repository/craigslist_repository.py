@@ -1,7 +1,9 @@
 from ..plane_repository import PlaneSearchParams, PlaneRepository
 from planes.models import Airplane
 from craigslist import CraigslistForSale
+import time
 import re
+from django.db import IntegrityError
 
 
 class CraigslistSearchParams:
@@ -42,20 +44,26 @@ class Craigslist(PlaneRepository):
 
     @staticmethod
     def __craigslist_listing_to_airplane(listing):
-        return Airplane.objects.create(
-            url=listing['url'],
-            price=int(re.sub("[^0-9]", "", listing['price'])),
-            title=listing['name'],
-            description=listing['body']
-        )
+        try:
+            return Airplane.objects.create(
+                url=listing['url'],
+                price=int(re.sub("[^0-9]", "", listing['price'])),
+                title=listing['name'],
+                description=listing['body']
+            )
+        except IntegrityError:
+            print('plane already exists')
 
     def search(self, search_params: PlaneSearchParams = PlaneSearchParams()):
         craigslist_params = Craigslist.__plane_search_params_to_craigslist_params(
             search_params)
         listing_results = []
-        for city in self.cities[:10]:
+        for city in self.cities[:30]:
+            time.sleep(0.2)
+            print('searching city: {city}'.format(city=city))
             current_results = [Craigslist.__craigslist_listing_to_airplane(
                 listing) for listing in self.__get_listings_for_city(city, craigslist_params)]
-            print(current_results)
             listing_results = listing_results + current_results
+            for result in current_results:
+                print(result)
         return listing_results
