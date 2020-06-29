@@ -2,7 +2,7 @@ from .plane_repository import PlaneRepository, PlaneSearchParams
 from planes.models import Airplane
 from typing import Text
 from django.db import IntegrityError
-from .....barnstormers.barnstormers import (
+from barnstormers.barnstormers import (
     BarnstormersClassifiedListing,
     BarnstormerSearchParams,
     Barnstormers,
@@ -35,8 +35,8 @@ class BarnstormersPlaneRepository(PlaneRepository):
             search_param
         )
         classifieds = Barnstormers().classifieds.search(barnstormer_search_params)
-        airplanes = [self.__classified_to_airplane(listing) for listing in classifieds]
+        airplanes = [self.__classified_to_airplane(
+            listing) for listing in classifieds]
         for airplane in airplanes:
             print(airplane)
         return airplanes
-
