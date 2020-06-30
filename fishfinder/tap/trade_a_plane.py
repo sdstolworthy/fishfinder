@@ -82,6 +82,4 @@ class TradeAPlane:
             prev_link = next_link
             listings, next_link = self.__parse_results_page(page.text)
             found_listings += listings
-        for listing in found_listings:
-            print(listing)
         return found_listings

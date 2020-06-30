@@ -64,21 +64,19 @@ class Craigslist(PlaneRepository):
                 description=listing["body"],
             )
         except IntegrityError:
-            print("plane already exists")
+            pass
 
     def search(self, search_params: PlaneSearchParams = PlaneSearchParams()):
         craigslist_params = Craigslist.__plane_search_params_to_craigslist_params(
             search_params
         )
         listing_results = []
-        for city in self.cities[:30]:
+        for city in self.cities:
             time.sleep(1)
-            print("searching city: {city}".format(city=city))
             current_results = [
                 Craigslist.__craigslist_listing_to_airplane(listing)
                 for listing in self.__get_listings_for_city(city, craigslist_params)
             ]
             listing_results = listing_results + current_results
-            for result in current_results:
-                print(result)
-        return listing_results
+
+        return [result for result in listing_results if result is not None]

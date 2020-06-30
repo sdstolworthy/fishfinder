@@ -19,7 +19,7 @@ class BarnstormersPlaneRepository(PlaneRepository):
                 url=classified.url,
             )
         except IntegrityError:
-            print("Value already exists")
+            pass
 
     def __plane_search_params_to_barnstormer_params(
         self, search_param: PlaneSearchParams = PlaneSearchParams()
@@ -34,9 +34,11 @@ class BarnstormersPlaneRepository(PlaneRepository):
         barnstormer_search_params = self.__plane_search_params_to_barnstormer_params(
             search_param
         )
-        classifieds = Barnstormers().classifieds.search(barnstormer_search_params)
-        airplanes = [self.__classified_to_airplane(
-            listing) for listing in classifieds]
-        for airplane in airplanes:
-            print(airplane)
+        serialized_airplanes = [
+            self.__classified_to_airplane(listing)
+            for listing in Barnstormers().classifieds.search(barnstormer_search_params)
+        ]
+        airplanes = [
+            airplane for airplane in serialized_airplanes if airplane is not None
+        ]
         return airplanes

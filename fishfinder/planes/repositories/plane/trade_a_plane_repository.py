@@ -2,11 +2,7 @@ from .plane_repository import PlaneRepository, PlaneSearchParams
 from planes.models import Airplane
 from typing import Text
 from django.db import IntegrityError
-from tap.trade_a_plane import (
-    TradeAPlaneListing,
-    TradeAPlaneSearchParams,
-    TradeAPlane
-)
+from tap.trade_a_plane import TradeAPlaneListing, TradeAPlaneSearchParams, TradeAPlane
 
 
 class TradeAPlaneRepository(PlaneRepository):
@@ -19,7 +15,7 @@ class TradeAPlaneRepository(PlaneRepository):
                 url=classified.url,
             )
         except IntegrityError:
-            print("Value already exists")
+            pass
 
     def __plane_search_params_to_barnstormer_params(
         self, search_param: PlaneSearchParams = PlaneSearchParams()
@@ -35,8 +31,8 @@ class TradeAPlaneRepository(PlaneRepository):
             search_param
         )
         classifieds = TradeAPlane().search(barnstormer_search_params)
-        airplanes = [self.__classified_to_airplane(
-            listing) for listing in classifieds]
-        for airplane in airplanes:
-            print(airplane)
+        airplanes = [
+            self.__classified_to_airplane(classified) for classified in classifieds
+        ]
+        airplanes = [airplane for airplane in airplanes if airplane is not None]
         return airplanes
