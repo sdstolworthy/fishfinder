@@ -42,6 +42,7 @@ class AirplaneSearchPipeline:
         for result in running_results:
             print(result)
         print(
-            "Pipeline completed in {} seconds",
-            round(pipeline_end_time - pipeline_start_time),
+            "Pipeline completed in {} seconds".format(
+                round(pipeline_end_time - pipeline_start_time)
+            ),
         )

@@ -1,9 +1,10 @@
 from ..plane_repository import PlaneSearchParams, PlaneRepository
+from django.db import IntegrityError
 from planes.models import Airplane
 from craigslist import CraigslistForSale
 import time
 import re
-from django.db import IntegrityError
+import progressbar
 
 
 class CraigslistSearchParams:
@@ -71,12 +72,14 @@ class Craigslist(PlaneRepository):
             search_params
         )
         listing_results = []
-        for city in self.cities:
-            time.sleep(1)
-            current_results = [
-                Craigslist.__craigslist_listing_to_airplane(listing)
-                for listing in self.__get_listings_for_city(city, craigslist_params)
-            ]
-            listing_results = listing_results + current_results
+        with progressbar.ProgressBar(max_value=len(self.cities)) as bar:
+            for city in self.cities:
+                time.sleep(1)
+                current_results = [
+                    Craigslist.__craigslist_listing_to_airplane(listing)
+                    for listing in self.__get_listings_for_city(city, craigslist_params)
+                ]
+                listing_results = listing_results + current_results
+                bar.update(self.cities.index(city))
 
         return [result for result in listing_results if result is not None]
