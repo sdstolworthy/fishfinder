@@ -27,7 +27,7 @@ class AirplaneSearchPipeline:
         for step in self.pipeline:
             start_time = time.time()
             print("{}: started".format(step.name))
-            running_results = [
+            running_results = running_results + [
                 step_result
                 for step_result in step.execute(running_results)
                 if step_result is not None
