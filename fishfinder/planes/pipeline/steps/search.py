@@ -1,4 +1,6 @@
 from ._step import PipelineStep
+from planes.models import Airplane
+from typing import List
 from planes.repositories.plane.plane_repository import (
     PlaneRepository,
     PlaneSearchParams,
@@ -21,7 +23,7 @@ class Search(PipelineStep):
         self.search_params = search_params
         super().__init__(name)
 
-    def execute(self, _):
+    def execute(self, _) -> List[Airplane]:
         airplanes = self.plane_repository.search(self.search_params)
         return airplanes
 

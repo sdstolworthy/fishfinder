@@ -22,7 +22,7 @@ class AirplaneSearchPipeline:
 
     def run(self):
         print("running")
-        running_results = None
+        running_results = []
         pipeline_start_time = time.time()
         for step in self.pipeline:
             start_time = time.time()
