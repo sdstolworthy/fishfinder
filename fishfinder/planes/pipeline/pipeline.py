@@ -42,7 +42,9 @@ class AirplaneSearchPipeline:
         for result in running_results:
             print(result)
         print(
-            "Pipeline completed in {} seconds".format(
-                round(pipeline_end_time - pipeline_start_time)
+            "Found {} {} in {} seconds".format(
+                len(running_results),
+                "planes" if len(running_results) != 1 else "plane",
+                round(pipeline_end_time - pipeline_start_time),
             ),
         )
