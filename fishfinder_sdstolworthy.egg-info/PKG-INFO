@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fishfinder-sdstolworthy
+Version: 0.0.1
+Summary: A simple application to find a cheap plane
+Home-page: https://github.com/sdstolworthy/fishfinder
+Author: sdstolworthy
+Author-email: sdstolworthy@gmail.com
+License: UNKNOWN
+Description: # Fishfinder finds planes
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
